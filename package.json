@@ -1,6 +1,6 @@
 {
-  "name": "douyu",
-  "version": "0.1.0",
+  "name": "douyu-sdk",
+  "version": "0.1.1",
   "description": "NodeJS Wrapper for DouyuTV APIs",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yingnansong/douyujs.git"
+    "url": "git+https://github.com/htzd2510/douyujs.git"
   },
   "keywords": [
     "douyu"
   ],
-  "author": "Yingnan Song",
+  "author": "Yingnan Song,xiaozhuai",
   "licenses": [
     {
       "type": "MIT",
@@ -21,9 +21,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/yingnansong/douyujs/issues"
+    "url": "https://github.com/htzd2510/douyujs/issues"
   },
-  "homepage": "https://github.com/yingnansong/douyujs#readme",
+  "homepage": "https://github.com/htzd2510/douyujs#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"

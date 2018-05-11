@@ -19,8 +19,7 @@ Room.prototype.open = function(){
 
 Room.prototype.keepAlive = function(){
 	this.client.send({
-		type: 'keepalive',
-		tick: Math.floor(new Date().getTime() * 0.001)
+		type: 'mrkl'
 	});
 }
 
