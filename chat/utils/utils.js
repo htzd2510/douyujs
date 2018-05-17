@@ -49,7 +49,7 @@ var utils = {
     },
 
     deserialize: function(raw) {
-        if(raw.indexOf('/') >= 0){
+        if(raw.indexOf('/') >= 0 && (raw.indexOf('@=') >= 0 || raw.indexOf('@S') >= 0 || raw.indexOf('@A') >= 0)){
             var parts = raw.split("/");
             parts.pop();
 
