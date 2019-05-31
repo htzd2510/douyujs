@@ -1,10 +1,10 @@
 // Douyu API Usages
 
 // Import library
-var douyu = require('douyu');
+var douyu = require('../index');
 
 // Initialize Room entity
-var roomID = "424559";
+var roomID = "156277";
 var room = new douyu.ChatRoom(roomID);
 
 // System level events handler
